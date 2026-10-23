@@ -1,0 +1,37 @@
+# Dependencies & Build
+node_modules/
+dist/
+dev-dist/
+*.tsbuildinfo
+
+# Tests
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Design-Sessions (otto-design Scratch-Dateien, enthalten Session-Keys)
+.otto-design/
+
+# Lokale Umgebung
+.env
+.env.*
+*.local
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Secrets (breiteres Netz gegen versehentliche Commits)
+*.pem
+*.key
+secrets.*
+
+# Trainingsdaten dürfen nie ins Repo (Exporte, Backups, Altdaten)
+repstar-export-*
+repstar-backup-*
+*.repstar.json
+legacy-data/
